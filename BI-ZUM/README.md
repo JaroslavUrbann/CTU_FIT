@@ -8,3 +8,5 @@ Projects done so far:
 	- A planning task defined using the Planning Domain Definition Language (PDDL).
 - __Genetic__
     - An evolutionary algorithm that solves the vertex cover problem.
+- __Snake__
+    - A neural network evolved to play the game snake using evolutionary strategies.
