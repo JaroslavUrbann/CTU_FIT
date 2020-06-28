@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2714636324195319876  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8351ecf3b4fb4fc2822313464411021f --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot multiplier_test_behav xil_defaultlib.multiplier_test" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/multiplier_test_behav/xsimk\"   \"xsim.dir/multiplier_test_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/multiplier_test_behav/obj/xsim_1.lnx64.o\" \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

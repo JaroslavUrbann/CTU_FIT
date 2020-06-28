@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  3 20:00:10 2020
+# Process ID: 24488
+# Current directory: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab3/lab3.runs/impl_1
+# Command line: vivado -log decoder_7seg.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source decoder_7seg.tcl -notrace
+# Log file: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab3/lab3.runs/impl_1/decoder_7seg.vdi
+# Journal file: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab3/lab3.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source decoder_7seg.tcl -notrace

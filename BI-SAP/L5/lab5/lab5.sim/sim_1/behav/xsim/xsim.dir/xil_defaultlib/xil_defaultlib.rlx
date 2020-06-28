@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:07:38
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_debounce_0_0/sim/seq_detector_debounce_0_0.vhd,1586513407,vhdl,,,,seq_detector_debounce_0_0,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_dff_0_0/sim/seq_detector_dff_0_0.vhd,1586513407,vhdl,,,,seq_detector_dff_0_0,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_dff_0_1/sim/seq_detector_dff_0_1.vhd,1586513407,vhdl,,,,seq_detector_dff_0_1,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_dff_0_2/sim/seq_detector_dff_0_2.vhd,1586513407,vhdl,,,,seq_detector_dff_0_2,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_next_state_logic_0_0/sim/seq_detector_next_state_logic_0_0.vhd,1586513407,vhdl,,,,seq_detector_next_state_logic_0_0,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ip/seq_detector_output_logic_0_0/sim/seq_detector_output_logic_0_0.vhd,1586513407,vhdl,,,,seq_detector_output_logic_0_0,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ipshared/9628/dff.vhd,1586513152,vhdl,,,,dff,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/ipshared/c2d1/debounce.vhd,1586513152,vhdl,,,,debounce,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.ip_user_files/bd/seq_detector/sim/seq_detector.vhd,1586514288,vhdl,,,,seq_detector,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.srcs/sim_1/new/l5_posloupnost_test_v2.vhd,1586509918,vhdl,,,,l5_posloupnost_test_v2,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.srcs/sim_1/new/l5_posloupnost_test_v2_wrapper.vhd,1586513693,vhdl,,,,l5_posloupnost_test_v2_wrapper,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.srcs/sources_1/new/next_state_logic.vhd,1586511938,vhdl,,,,next_state_logic,,,,,,,,
+/home/jaroslav/Desktop/CTU_FIT/BI-SAP/lab5/lab5.srcs/sources_1/new/output_logic.vhd,1586512781,vhdl,,,,output_logic,,,,,,,,

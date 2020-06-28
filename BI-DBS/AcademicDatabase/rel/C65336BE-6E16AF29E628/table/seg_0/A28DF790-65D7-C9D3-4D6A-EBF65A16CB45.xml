@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A28DF790-65D7-C9D3-4D6A-EBF65A16CB45" name="submission">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>BF281EE8-6EBE-59EB-7432-FC8829050895</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="submission_date" id="B91FA946-CADF-2700-5A11-A7C480593D90">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>EC0DDCCA-6BDF-4C70-74E7-7921783A3EA3</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="accepted" id="71997FCD-5F4E-434D-4B0F-89FC0B547CAA">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>7F3E2BB5-0CF6-DDF4-09CB-6296EB11D744</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="academic_paper_id" id="6D77B0A3-73A5-E3F7-9EBC-8D58F386E497">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>049C4C4B-A977-8D1F-508C-6E97ED5B0CE9</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="886E4A24-5765-3FD4-F2CA-2EBEAC4D92C5" referredColumn="6FBF34CB-B09C-03D6-17B0-C76C3E7EC9E3"/>
+</associations>
+</Column>
+<Column name="conference_edition_id" id="8462B152-C858-6A09-ABF8-3D3B95AA0CE0">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>741A74C1-AB5B-A6D0-745F-DE0FF734F95F</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8A94CAF6-CF89-860B-5C4D-529C6A70B467" referredColumn="4AFC930B-EF64-3DBF-BC29-6079A02630D7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C83DCD6-CC98-397F-CA48-7BE703F8CE5D" name="submission_PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>A6D8A957-7105-FCD4-B459-87B5C779A99A</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D77B0A3-73A5-E3F7-9EBC-8D58F386E497"/>
+<colUsage columnID="8462B152-C858-6A09-ABF8-3D3B95AA0CE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8EA6704-A05F-9CE6-7059-1B944DEC1B10" name="Relation_21">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>FEA21C2A-DAE7-15A2-4C11-53B891E73174</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D77B0A3-73A5-E3F7-9EBC-8D58F386E497"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A17F183B-1DF4-92AB-D6BA-F06918C72E23" name="Relation_22">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>3AFCF291-1156-3414-299E-D77F7B7E3A3D</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8462B152-C858-6A09-ABF8-3D3B95AA0CE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

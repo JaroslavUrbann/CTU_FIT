@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Apr 10 12:24:48 2020" VIVADOVERSION="2018.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="seq_detector" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="SWITCH" SIGIS="undef" SIGNAME="External_Ports_SWITCH">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="next_state_logic_0" PORT="sw"/>
+        <CONNECTION INSTANCE="output_logic_0" PORT="sw"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RESET" SIGIS="undef" SIGNAME="External_Ports_RESET">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dff_0" PORT="reset"/>
+        <CONNECTION INSTANCE="dff_1" PORT="reset"/>
+        <CONNECTION INSTANCE="dff_2" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="DETECT" SIGIS="undef" SIGNAME="output_logic_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="output_logic_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CE" SIGIS="undef" SIGNAME="External_Ports_CE">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dff_1" PORT="ce"/>
+        <CONNECTION INSTANCE="dff_0" PORT="ce"/>
+        <CONNECTION INSTANCE="dff_2" PORT="ce"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S0" SIGIS="undef" SIGNAME="dff_0_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dff_0" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S1" SIGIS="undef" SIGNAME="dff_1_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dff_1" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="S2" SIGIS="undef" SIGNAME="dff_2_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="dff_2" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="debounce_0" PORT="clk"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="BTN" SIGIS="undef" SIGNAME="External_Ports_BTN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="debounce_0" PORT="tl_in"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/debounce_0" HWVERSION="1.0" INSTANCE="debounce_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="debounce" VLNV="FIT:user:debounce:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="width" VALUE="4"/>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_debounce_0_0"/>
+        <PARAMETER NAME="LOGO_FILE" VALUE="simulation.png"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="tl_in" SIGIS="undef" SIGNAME="External_Ports_BTN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BTN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="tl_out" SIGIS="undef" SIGNAME="debounce_0_tl_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_1" PORT="clk"/>
+            <CONNECTION INSTANCE="dff_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/dff_0" HWVERSION="1.0" INSTANCE="dff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="FIT:user:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_dff_0_0"/>
+        <PARAMETER NAME="CE" VALUE="true"/>
+        <PARAMETER NAME="Reset" VALUE="true"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="data" SIGNAME="next_state_logic_0_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="d0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="debounce_0_tl_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="debounce_0" PORT="tl_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="External_Ports_CE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="data" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="output_logic_0" PORT="q0"/>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="q0"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="S0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/dff_1" HWVERSION="1.0" INSTANCE="dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="FIT:user:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_dff_0_1"/>
+        <PARAMETER NAME="CE" VALUE="true"/>
+        <PARAMETER NAME="Reset" VALUE="true"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="data" SIGNAME="next_state_logic_0_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="d1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="debounce_0_tl_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="debounce_0" PORT="tl_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="External_Ports_CE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="data" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="q1"/>
+            <CONNECTION INSTANCE="output_logic_0" PORT="q1"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="S1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/dff_2" HWVERSION="1.0" INSTANCE="dff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="dff" VLNV="FIT:user:dff:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_dff_0_2"/>
+        <PARAMETER NAME="CE" VALUE="true"/>
+        <PARAMETER NAME="Reset" VALUE="true"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="data" SIGNAME="next_state_logic_0_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="d2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="debounce_0_tl_out">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="debounce_0" PORT="tl_out"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="ce" SIGIS="undef" SIGNAME="External_Ports_CE">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CE"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="data" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="next_state_logic_0" PORT="q2"/>
+            <CONNECTION INSTANCE="output_logic_0" PORT="q2"/>
+            <CONNECTION INSTANCE="External_Ports" PORT="S2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/next_state_logic_0" HWVERSION="1.0" INSTANCE="next_state_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="next_state_logic" VLNV="xilinx.com:module_ref:next_state_logic:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_next_state_logic_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="q0" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q1" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q2" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw" SIGIS="undef" SIGNAME="External_Ports_SWITCH">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SWITCH"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d0" SIGIS="undef" SIGNAME="next_state_logic_0_d0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d1" SIGIS="undef" SIGNAME="next_state_logic_0_d1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="d2" SIGIS="undef" SIGNAME="next_state_logic_0_d2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE FULLNAME="/output_logic_0" HWVERSION="1.0" INSTANCE="output_logic_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="output_logic" VLNV="xilinx.com:module_ref:output_logic:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="seq_detector_output_logic_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="q0" SIGIS="undef" SIGNAME="dff_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_0" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q1" SIGIS="undef" SIGNAME="dff_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_1" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="q2" SIGIS="undef" SIGNAME="dff_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="dff_2" PORT="q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="sw" SIGIS="undef" SIGNAME="External_Ports_SWITCH">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="SWITCH"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="output_logic_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="DETECT"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

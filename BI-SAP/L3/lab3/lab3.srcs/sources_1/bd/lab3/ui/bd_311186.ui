@@ -1,0 +1,31 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port b_0 -pg 1 -y 40 -defaultsOSRD
+preplace port f_g_0 -pg 1 -y 110 -defaultsOSRD
+preplace port f_d_0 -pg 1 -y 50 -defaultsOSRD
+preplace port f_c_0 -pg 1 -y 30 -defaultsOSRD
+preplace port f_b_0 -pg 1 -y 10 -defaultsOSRD
+preplace port c_0 -pg 1 -y 60 -defaultsOSRD
+preplace port f_a_0 -pg 1 -y -10 -defaultsOSRD
+preplace port d_0 -pg 1 -y 80 -defaultsOSRD
+preplace port f_e_0 -pg 1 -y 70 -defaultsOSRD
+preplace port a_0 -pg 1 -y 20 -defaultsOSRD
+preplace port f_f_0 -pg 1 -y 90 -defaultsOSRD
+preplace inst decoder_7seg_0 -pg 1 -lvl 1 -y 50 -defaultsOSRD
+preplace netloc decoder_7seg_0_f_b 1 1 1 NJ
+preplace netloc c_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_c 1 1 1 NJ
+preplace netloc decoder_7seg_0_f_d 1 1 1 NJ
+preplace netloc decoder_7seg_0_f_e 1 1 1 NJ
+preplace netloc decoder_7seg_0_f_f 1 1 1 NJ
+preplace netloc decoder_7seg_0_f_g 1 1 1 NJ
+preplace netloc d_0_1 1 0 1 NJ
+preplace netloc b_0_1 1 0 1 NJ
+preplace netloc a_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_a 1 1 1 NJ
+levelinfo -pg 1 -10 110 230 -top -70 -bot 240
+",
+}
+0

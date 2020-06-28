@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="citation" directorySegmentName="seg_0" id="4264DC5C-EB2B-FC7C-3589-D4F59B02989A">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:57:25 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>cites</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D2512069-F2B6-4A7F-3C97-F8A8B5B3CAAB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2512069-F2B6-4A7F-3C97-F8A8B5B3CAAB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

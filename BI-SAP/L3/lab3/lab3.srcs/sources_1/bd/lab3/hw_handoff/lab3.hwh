@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr  5 13:53:29 2020" VIVADOVERSION="2018.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="lab3" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a_0" SIGIS="undef" SIGNAME="External_Ports_a_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b_0" SIGIS="undef" SIGNAME="External_Ports_b_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="c_0" SIGIS="undef" SIGNAME="External_Ports_c_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="d_0" SIGIS="undef" SIGNAME="External_Ports_d_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_a_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_a">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_b_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_b">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_c_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_c">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_d_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_d">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_e_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_e">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_e"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_f_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_f">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_f"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="f_g_0" SIGIS="undef" SIGNAME="decoder_7seg_0_f_g">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="decoder_7seg_0" PORT="f_g"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/decoder_7seg_0" HWVERSION="1.0" INSTANCE="decoder_7seg_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="decoder_7seg" VLNV="xilinx.com:module_ref:decoder_7seg:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="lab3_decoder_7seg_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_a_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_b_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_c_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="c_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_d_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="d_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_a" SIGIS="undef" SIGNAME="decoder_7seg_0_f_a">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_a_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_b" SIGIS="undef" SIGNAME="decoder_7seg_0_f_b">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_b_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_c" SIGIS="undef" SIGNAME="decoder_7seg_0_f_c">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_c_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_d" SIGIS="undef" SIGNAME="decoder_7seg_0_f_d">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_d_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_e" SIGIS="undef" SIGNAME="decoder_7seg_0_f_e">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_e_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_f" SIGIS="undef" SIGNAME="decoder_7seg_0_f_f">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_f_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="f_g" SIGIS="undef" SIGNAME="decoder_7seg_0_f_g">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="f_g_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="510E9723-A20E-4E7B-12E6-4615B2CDAD65" name="authorship">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="researcher_id" id="07366731-D2D4-9C60-277B-902D44FCFE5D">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABECACC0-A671-7B8C-16DE-F9ACAA5800D1" referredColumn="D2CB2C82-7E22-EC0C-6231-0664349431E5"/>
+</associations>
+</Column>
+<Column name="academic_paper_id" id="E0BABA9D-FF98-8A94-6995-F8F014B2D878">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF3ED958-81E1-8BD8-3B5D-C8E74004FF64" referredColumn="6FBF34CB-B09C-03D6-17B0-C76C3E7EC9E3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D12FBA97-5442-F4B3-EB65-00345B786B5A" name="authorship_PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07366731-D2D4-9C60-277B-902D44FCFE5D"/>
+<colUsage columnID="E0BABA9D-FF98-8A94-6995-F8F014B2D878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A563ABCB-05B0-FED7-5BD1-EC9BBF1A4200" name="authorship_researcher_FK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>58556DFF-40BD-47B9-C202-9096804D527B</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07366731-D2D4-9C60-277B-902D44FCFE5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FD294BC-0C2B-92D7-7CAC-EEC36EC72515" name="authorship_academic_paper_FK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>58556DFF-40BD-47B9-C202-9096804D527B</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0BABA9D-FF98-8A94-6995-F8F014B2D878"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

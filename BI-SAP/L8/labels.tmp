@@ -1,0 +1,42 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.9</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Administrator\Desktop\lab8</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab8\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>18</LINE></show_char>
+  <mezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>42</LINE></mezera>
+  <neznak><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>39</LINE></neznak>
+  <nemezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>44</LINE></nemezera>
+  <znaky><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\print.inc</FILE><LINE>64</LINE></zobzc>
+  <start><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>13</LINE></start>
+  <neni_zaporne><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>63</LINE></neni_zaporne>
+  <neni_zaporne2><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>90</LINE></neni_zaporne2>
+  <neni_zaporne3><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>113</LINE></neni_zaporne3>
+  <draw_P><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>146</LINE></draw_P>
+  <show_num_16><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>154</LINE></show_num_16>
+  <end><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>143</LINE></end>
+  <get_higher_byte><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>161</LINE></get_higher_byte>
+  <dontaddA19><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>174</LINE></dontaddA19>
+  <dontaddA20><FILE>C:\Documents and Settings\Administrator\Desktop\lab8\lab8_3b.asm</FILE><LINE>179</LINE></dontaddA20>
+ </LABELS>
+</ASSEMBLER_INFO>

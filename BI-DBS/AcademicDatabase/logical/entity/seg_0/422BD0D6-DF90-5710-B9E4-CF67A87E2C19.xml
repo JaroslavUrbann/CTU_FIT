@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="422BD0D6-DF90-5710-B9E4-CF67A87E2C19" name="field">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:53:16 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="field_id" id="990CE204-2C45-E5F9-5CB6-B9E20086DECF">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:53:33 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="field_name" id="B160F139-C28B-6D13-BC6E-B998FD86B66C">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:53:40 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADBD7E73-22F6-1691-67EC-6FA957B60C05" name="field PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:53:39 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>990CE204-2C45-E5F9-5CB6-B9E20086DECF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

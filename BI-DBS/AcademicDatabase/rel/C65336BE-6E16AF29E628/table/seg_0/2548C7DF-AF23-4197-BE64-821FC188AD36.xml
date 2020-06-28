@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2548C7DF-AF23-4197-BE64-821FC188AD36" name="conference_edition">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>AE54077E-2E5C-5FFB-8746-99F27B346632</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="conference_edition_id" id="4AFC930B-EF64-3DBF-BC29-6079A02630D7">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>CA6FB5AC-9008-F4B6-EFD5-B40DEB36FE1E</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_date" id="FE30F49D-6FAA-7F28-F3AC-3657F3986FA0">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>99D49FD0-CDA2-BB3A-590B-D6477E250BAD</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_date" id="0345E1FB-898C-B3F8-50FF-2D7BA2877AA2">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>C1EE37A9-9265-C842-98D2-69FB288A2801</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city_id" id="2528A0EE-DC76-6CB1-BC8F-14C5E9C42101">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>38FB1FAB-0985-3824-FE3B-04C7C7972D86</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79F95407-CA03-E47E-EAEA-464C11212588" referredColumn="922092BE-334A-39E2-891A-2F619513653D"/>
+</associations>
+</Column>
+<Column name="conference_id" id="0167DFA5-E06B-6B1B-26B6-B0614FB66EB1">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>0A76AE01-4842-EEF1-08AF-8A33D8D6B0E2</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49761C53-C038-5695-7A4F-B65442382F2F" referredColumn="2F6C6A64-3268-5CD3-51E3-F37BF27E87A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F83571D4-5422-3A5C-440C-55C032E9D5B6" name="conference_edition_PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>003D1BB0-D8E4-2609-3B90-14F00F3AA82A</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AFC930B-EF64-3DBF-BC29-6079A02630D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39247EDD-5A96-445A-9CB6-641C20D227DC" name="Relation_27">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>C6AFFE6F-7262-8731-94A2-E7697CA4AE1E</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2528A0EE-DC76-6CB1-BC8F-14C5E9C42101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D262ADA-E839-107C-F92C-8E86480C3A49" name="Relation_28">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>00DFF4DE-8946-855F-8D5D-205CF085481D</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0167DFA5-E06B-6B1B-26B6-B0614FB66EB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

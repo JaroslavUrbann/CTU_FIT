@@ -1,0 +1,30 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2018.2/bin/unwrapped/lnx64.o/xelab -wto cebef4f7f8d641e9a17c1fdfc16358df --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot l5_posloupnost_test_v2_wrapper_behav xil_defaultlib.l5_posloupnost_test_v2_wrapper -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_textio
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package unisim.vcomponents
+Compiling architecture behavioral of entity xil_defaultlib.debounce [\debounce(width=4)\]
+Compiling architecture seq_detector_debounce_0_0_arch of entity xil_defaultlib.seq_detector_debounce_0_0 [seq_detector_debounce_0_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.dff [dff_default]
+Compiling architecture seq_detector_dff_0_0_arch of entity xil_defaultlib.seq_detector_dff_0_0 [seq_detector_dff_0_0_default]
+Compiling architecture seq_detector_dff_0_1_arch of entity xil_defaultlib.seq_detector_dff_0_1 [seq_detector_dff_0_1_default]
+Compiling architecture seq_detector_dff_0_2_arch of entity xil_defaultlib.seq_detector_dff_0_2 [seq_detector_dff_0_2_default]
+Compiling architecture behavioral of entity xil_defaultlib.next_state_logic [next_state_logic_default]
+Compiling architecture seq_detector_next_state_logic_0_0_arch of entity xil_defaultlib.seq_detector_next_state_logic_0_0 [seq_detector_next_state_logic_0_...]
+Compiling architecture behavioral of entity xil_defaultlib.output_logic [output_logic_default]
+Compiling architecture seq_detector_output_logic_0_0_arch of entity xil_defaultlib.seq_detector_output_logic_0_0 [seq_detector_output_logic_0_0_de...]
+Compiling architecture structure of entity xil_defaultlib.seq_detector [seq_detector_default]
+Compiling architecture behavioral of entity xil_defaultlib.l5_posloupnost_test_v2_wrapper
+Built simulation snapshot l5_posloupnost_test_v2_wrapper_behav

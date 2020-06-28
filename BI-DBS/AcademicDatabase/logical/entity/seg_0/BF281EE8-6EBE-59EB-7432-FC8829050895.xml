@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF281EE8-6EBE-59EB-7432-FC8829050895" name="submission">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:53:57 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="submission_date" id="EC0DDCCA-6BDF-4C70-74E7-7921783A3EA3">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:54:09 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="accepted" id="7F3E2BB5-0CF6-DDF4-09CB-6296EB11D744">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:54:22 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="academic_paper_id" id="049C4C4B-A977-8D1F-508C-6E97ED5B0CE9">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:00:23 UTC</createdTime>
+<generatorID>FEA21C2A-DAE7-15A2-4C11-53B891E73174</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<referedAttribute>01905239-412E-58EE-5740-8F532B4AADE8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conference_edition_id" id="741A74C1-AB5B-A6D0-745F-DE0FF734F95F">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:00:42 UTC</createdTime>
+<generatorID>3AFCF291-1156-3414-299E-D77F7B7E3A3D</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<referedAttribute>CA6FB5AC-9008-F4B6-EFD5-B40DEB36FE1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A6D8A957-7105-FCD4-B459-87B5C779A99A" name="submission PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:00:36 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>049C4C4B-A977-8D1F-508C-6E97ED5B0CE9</attributeRef>
+<attributeRef>741A74C1-AB5B-A6D0-745F-DE0FF734F95F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

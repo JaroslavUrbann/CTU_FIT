@@ -1,0 +1,48 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port B_0_0 -pg 1 -y -80 -defaultsOSRD
+preplace port B_3_0 -pg 1 -y -20 -defaultsOSRD
+preplace port A_0_0 -pg 1 -y -160 -defaultsOSRD
+preplace port f_g_0 -pg 1 -y 240 -defaultsOSRD
+preplace port f_d_0 -pg 1 -y 180 -defaultsOSRD
+preplace port f_c_0 -pg 1 -y 160 -defaultsOSRD
+preplace port A_2_0 -pg 1 -y -120 -defaultsOSRD
+preplace port f_b_0 -pg 1 -y 140 -defaultsOSRD
+preplace port Cout_0 -pg 1 -y -120 -defaultsOSRD
+preplace port B_2_0 -pg 1 -y -40 -defaultsOSRD
+preplace port f_a_0 -pg 1 -y 120 -defaultsOSRD
+preplace port Cin_0 -pg 1 -y 0 -defaultsOSRD
+preplace port A_1_0 -pg 1 -y -140 -defaultsOSRD
+preplace port B_1_0 -pg 1 -y -60 -defaultsOSRD
+preplace port A_3_0 -pg 1 -y -100 -defaultsOSRD
+preplace port f_e_0 -pg 1 -y 200 -defaultsOSRD
+preplace port f_f_0 -pg 1 -y 220 -defaultsOSRD
+preplace inst adder_0 -pg 1 -lvl 1 -y -80 -defaultsOSRD
+preplace inst decoder_7seg_0 -pg 1 -lvl 1 -y 180 -defaultsOSRD
+preplace netloc A_0_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_b 1 1 1 NJ
+preplace netloc B_2_0_1 1 0 1 NJ
+preplace netloc A_2_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_c 1 1 1 NJ
+preplace netloc adder_0_S_0 1 0 2 10 -220 210
+preplace netloc decoder_7seg_0_f_d 1 1 1 NJ
+preplace netloc adder_0_S_1 1 0 2 -10 -230 220
+preplace netloc decoder_7seg_0_f_e 1 1 1 NJ
+preplace netloc adder_0_S_2 1 0 2 0 60 210
+preplace netloc adder_0_Cout 1 1 1 NJ
+preplace netloc decoder_7seg_0_f_f 1 1 1 NJ
+preplace netloc adder_0_S_3 1 0 2 -20 -240 230
+preplace netloc B_3_0_1 1 0 1 NJ
+preplace netloc A_3_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_g 1 1 1 NJ
+preplace netloc B_1_0_1 1 0 1 NJ
+preplace netloc A_1_0_1 1 0 1 NJ
+preplace netloc B_0_0_1 1 0 1 NJ
+preplace netloc Cin_0_1 1 0 1 NJ
+preplace netloc decoder_7seg_0_f_a 1 1 1 NJ
+levelinfo -pg 1 -40 110 250 -top -350 -bot 300
+",
+}
+

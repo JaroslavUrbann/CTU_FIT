@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  3 21:14:48 2020
+# Process ID: 8497
+# Current directory: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lib3_adder/lib3_adder/lib3_adder.runs/synth_1
+# Command line: vivado -log decoder_7seg.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_7seg.tcl
+# Log file: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lib3_adder/lib3_adder/lib3_adder.runs/synth_1/decoder_7seg.vds
+# Journal file: /home/jaroslav/Desktop/CTU_FIT/BI-SAP/lib3_adder/lib3_adder/lib3_adder.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source decoder_7seg.tcl -notrace

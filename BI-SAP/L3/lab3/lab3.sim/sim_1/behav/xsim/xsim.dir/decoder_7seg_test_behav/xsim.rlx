@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2355945591178821760  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 3a0a893e77e24e32b9f3526ebe5ef096 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip -L xpm --snapshot decoder_7seg_test_behav xil_defaultlib.decoder_7seg_test" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:07:38" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/decoder_7seg_test_behav/xsimk\"   \"xsim.dir/decoder_7seg_test_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/decoder_7seg_test_behav/obj/xsim_1.lnx64.o\" \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simulator_kernel.so\"  \"/opt/Xilinx/Vivado/2018.2/lib/lnx64.o/librdi_simbridge_kernel.so\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,36 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port b1_0 -pg 1 -y 90 -defaultsOSRD
+preplace port f_e_0_0 -pg 1 -y -140 -defaultsOSRD
+preplace port f_b_0_0 -pg 1 -y -200 -defaultsOSRD
+preplace port a0_0 -pg 1 -y 30 -defaultsOSRD
+preplace port f_c_0_0 -pg 1 -y -180 -defaultsOSRD
+preplace port f_d_0_0 -pg 1 -y -160 -defaultsOSRD
+preplace port f_g_0_0 -pg 1 -y -100 -defaultsOSRD
+preplace port f_a_0_0 -pg 1 -y -220 -defaultsOSRD
+preplace port a1_0 -pg 1 -y 50 -defaultsOSRD
+preplace port f_f_0_0 -pg 1 -y -120 -defaultsOSRD
+preplace port b0_0 -pg 1 -y 70 -defaultsOSRD
+preplace inst multiplier_0 -pg 1 -lvl 1 -y 60 -defaultsOSRD
+preplace inst lab3_0 -pg 1 -lvl 1 -y -160 -defaultsOSRD
+preplace netloc lab3_0_f_g_0 1 1 1 NJ
+preplace netloc lab3_0_f_b_0 1 1 1 NJ
+preplace netloc lab3_0_f_e_0 1 1 1 NJ
+preplace netloc lab3_0_f_a_0 1 1 1 NJ
+preplace netloc multiplier_0_y0 1 0 2 0 -40 410
+preplace netloc multiplier_0_y1 1 0 2 10 -30 400
+preplace netloc multiplier_0_y2 1 0 2 20 150 410
+preplace netloc multiplier_0_y3 1 0 2 30 160 400
+preplace netloc a1_0_1 1 0 1 NJ
+preplace netloc a0_0_1 1 0 1 NJ
+preplace netloc lab3_0_f_f_0 1 1 1 NJ
+preplace netloc b0_0_1 1 0 1 NJ
+preplace netloc lab3_0_f_c_0 1 1 1 NJ
+preplace netloc b1_0_1 1 0 1 NJ
+preplace netloc lab3_0_f_d_0 1 1 1 NJ
+levelinfo -pg 1 -20 310 430 -top -280 -bot 370
+",
+}
+0

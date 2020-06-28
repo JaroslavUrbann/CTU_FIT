@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47CA67E7-5F6B-4DA8-02BC-9FAC3629EEE5" name="research_group">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>64A035E8-65F4-6B75-A645-B551ADCE1463</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="research_group_id" id="682D21D4-8D24-CAC6-CFB7-0751EB53EE9F">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>6FF7695D-7A7F-BCC4-2A35-38218430A9D1</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="research_group_name" id="35E0C1CE-CBFB-38B2-C063-D11727C335FF">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>4BBCA76E-8029-4802-6CB4-B7E4C7EE59E7</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="school_id" id="DB42BAD0-161C-91E3-AFD9-D919E03F99FE">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>B71390CA-F24C-A168-0142-B60F9A566639</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5FA49B6-E3E1-489F-B918-9DC0F9789EA0" referredColumn="2C182F2D-9D1C-57DC-DA9D-1854F1EF6676"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77C42C56-2A2C-6457-D2E1-78F2F31F20F4" name="research_group_PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>CC20210E-30D5-8E1A-74F6-5CF927BFC1A5</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="682D21D4-8D24-CAC6-CFB7-0751EB53EE9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55AC722A-E2A1-AE01-FF6A-AB1A4D94FA08" name="Relation_24">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:09:35 UTC</createdTime>
+<generatorID>C1F4F81E-49D0-38D1-AB00-31902CF3BD3F</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB42BAD0-161C-91E3-AFD9-D919E03F99FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

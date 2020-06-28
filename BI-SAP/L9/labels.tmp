@@ -1,0 +1,43 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.9</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Administrator\Desktop\lab9</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab9\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>18</LINE></show_char>
+  <mezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>42</LINE></mezera>
+  <neznak><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>39</LINE></neznak>
+  <nemezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>44</LINE></nemezera>
+  <znaky><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\print.inc</FILE><LINE>64</LINE></zobzc>
+  <start><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>14</LINE></start>
+  <str><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>13</LINE></str>
+  <move><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>35</LINE></move>
+  <end><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>32</LINE></end>
+  <did_anim_end><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>49</LINE></did_anim_end>
+  <display_window><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>54</LINE></display_window>
+  <display_char><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>57</LINE></display_char>
+  <show><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>62</LINE></show>
+  <cek3><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>71</LINE></cek3>
+  <cek2><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>73</LINE></cek2>
+  <cek><FILE>C:\Documents and Settings\Administrator\Desktop\lab9\lab9.asm</FILE><LINE>75</LINE></cek>
+ </LABELS>
+</ASSEMBLER_INFO>

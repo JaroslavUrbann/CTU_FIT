@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr  5 13:29:09 2020" VIVADOVERSION="2018.2">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="lab3_multiplier" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="a0_0" SIGIS="undef" SIGNAME="External_Ports_a0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="a0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="a1_0" SIGIS="undef" SIGNAME="External_Ports_a1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="a1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b0_0" SIGIS="undef" SIGNAME="External_Ports_b0_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="b0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="b1_0" SIGIS="undef" SIGNAME="External_Ports_b1_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="b1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="y0_0" SIGIS="undef" SIGNAME="multiplier_0_y0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="y0"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="y1_0" SIGIS="undef" SIGNAME="multiplier_0_y1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="y1"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="y2_0" SIGIS="undef" SIGNAME="multiplier_0_y2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="y2"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="y3_0" SIGIS="undef" SIGNAME="multiplier_0_y3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="multiplier_0" PORT="y3"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE FULLNAME="/multiplier_0" HWVERSION="1.0" INSTANCE="multiplier_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="multiplier" VLNV="xilinx.com:module_ref:multiplier:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="Component_Name" VALUE="lab3_multiplier_multiplier_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a0" SIGIS="undef" SIGNAME="External_Ports_a0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="a1" SIGIS="undef" SIGNAME="External_Ports_a1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="a1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b0" SIGIS="undef" SIGNAME="External_Ports_b0_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b1" SIGIS="undef" SIGNAME="External_Ports_b1_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="b1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y0" SIGIS="undef" SIGNAME="multiplier_0_y0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y0_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y1" SIGIS="undef" SIGNAME="multiplier_0_y1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y1_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y2" SIGIS="undef" SIGNAME="multiplier_0_y2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y2_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y3" SIGIS="undef" SIGNAME="multiplier_0_y3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="y3_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

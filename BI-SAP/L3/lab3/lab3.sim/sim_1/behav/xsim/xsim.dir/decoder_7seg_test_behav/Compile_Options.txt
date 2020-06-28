@@ -1,0 +1,1 @@
+-wto "3a0a893e77e24e32b9f3526ebe5ef096" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" -L "xpm" --snapshot "decoder_7seg_test_behav" "xil_defaultlib.decoder_7seg_test" -log "elaborate.log" 

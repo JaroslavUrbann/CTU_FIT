@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AE54077E-2E5C-5FFB-8746-99F27B346632" name="conference_edition">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:54:46 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="conference_edition_id" id="CA6FB5AC-9008-F4B6-EFD5-B40DEB36FE1E">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:55:01 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="start_date" id="99D49FD0-CDA2-BB3A-590B-D6477E250BAD">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:55:14 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_date" id="C1EE37A9-9265-C842-98D2-69FB288A2801">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:55:21 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city_id" id="38FB1FAB-0985-3824-FE3B-04C7C7972D86">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:01:49 UTC</createdTime>
+<generatorID>C6AFFE6F-7262-8731-94A2-E7697CA4AE1E</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<referedAttribute>619C03FD-FA3C-980F-F20A-B5C000FD182C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conference_id" id="0A76AE01-4842-EEF1-08AF-8A33D8D6B0E2">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 12:02:14 UTC</createdTime>
+<generatorID>00DFF4DE-8946-855F-8D5D-205CF085481D</generatorID>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<referedAttribute>6B1594D0-19BB-EA46-D941-BD69DAFAC175</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="003D1BB0-D8E4-2609-3B90-14F00F3AA82A" name="conference_edition PK">
+<createdBy>jaroslav</createdBy>
+<createdTime>2020-04-30 11:55:13 UTC</createdTime>
+<ownerDesignName>AcademicDatabase</ownerDesignName>
+<engineerTo>
+<item key="C65336BE-3208-62FF-1B5C-6E16AF29E628" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA6FB5AC-9008-F4B6-EFD5-B40DEB36FE1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

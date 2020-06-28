@@ -1,0 +1,7 @@
+Running: xsim.dir/l5_posloupnost_test_v2_wrapper_behav/xsimk -simmode gui -wdb l5_posloupnost_test_v2_wrapper_behav.wdb -simrunnum 0 -socket 44441
+Design successfully loaded
+Design Loading Memory Usage: 43216 KB (Peak: 43268 KB)
+Design Loading CPU Usage: 20 ms
+Simulation completed
+Simulation Memory Usage: 133152 KB (Peak: 190488 KB)
+Simulation CPU Usage: 40 ms

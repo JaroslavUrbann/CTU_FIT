@@ -1,0 +1,54 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.9</VERSION>
+ <DEVICE>ATmega169</DEVICE>
+ <WORKING_DIR>C:\Documents and Settings\Administrator\Desktop\lab10</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\m169def.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab10\znaky.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init_disp><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>3</LINE></init_disp>
+  <show_char><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>18</LINE></show_char>
+  <mezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>42</LINE></mezera>
+  <neznak><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>39</LINE></neznak>
+  <nemezera><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>44</LINE></nemezera>
+  <znaky><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\znaky.inc</FILE><LINE>8</LINE></znaky>
+  <zobzc><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\print.inc</FILE><LINE>64</LINE></zobzc>
+  <main><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>14</LINE></main>
+  <init_joy><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>313</LINE></init_joy>
+  <init_forbes><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>31</LINE></init_forbes>
+  <start><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>39</LINE></start>
+  <first><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>75</LINE></first>
+  <second><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>106</LINE></second>
+  <third><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>133</LINE></third>
+  <done><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>155</LINE></done>
+  <clear><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>269</LINE></clear>
+  <wait><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>296</LINE></wait>
+  <read_joy><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>330</LINE></read_joy>
+  <endpress><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>249</LINE></endpress>
+  <modulo><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>236</LINE></modulo>
+  <lose><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>165</LINE></lose>
+  <win><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>198</LINE></win>
+  <end><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>257</LINE></end>
+  <cek3><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>299</LINE></cek3>
+  <cek2><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>301</LINE></cek2>
+  <cek><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>303</LINE></cek>
+  <joy_reread><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>334</LINE></joy_reread>
+  <joy_wait><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>338</LINE></joy_wait>
+  <joy_no_enter><FILE>C:\Documents and Settings\Administrator\Desktop\lab10\lab10.asm</FILE><LINE>353</LINE></joy_no_enter>
+ </LABELS>
+</ASSEMBLER_INFO>
