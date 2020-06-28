@@ -9,4 +9,4 @@ Projects done so far:
 - __Genetic__
     - An evolutionary algorithm that solves the vertex cover problem.
 - __Snake__
-    - A neural network evolved to play the game snake using evolutionary strategies.
+    - A neural network evolved to play the game snake using evolution strategies.
