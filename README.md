@@ -249,7 +249,8 @@ Below each course, I have included some observations and recommendations for any
 </tr>
 <tr align="center">
   <td colspan=7 style="white-space:pre-wrap; word-wrap:break-word">
-  I'd say you probably want Hunka or Matoušek for labs.
+  I'd say you probably want Hunka or Matoušek for labs. If you go to Hunka's proseminar at the end of the day,
+  there will be fewer people so you'll have a more discussion-based lecture.
   
   If you want a good grade, then you just have to learn SQL and relational algebra a little bit sooner then others.
   Then for the final exam, you also need a little bit of theory, but it's quite trivial.
